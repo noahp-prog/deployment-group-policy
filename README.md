@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Using GPO's to deploy software and change user wallpaper (ADDS)</h1>
+<h1>Using GPOs to deploy software and change users wallpaper (ADDS)</h1>
 This guide outlines two simple use cases of Group Policy within an Active Directory.<br />
 
 <h2>Environments and Technologies Used</h2>
@@ -26,7 +26,7 @@ This guide outlines two simple use cases of Group Policy within an Active Direct
 - Deploy Software
 - Observe changes on client-1
 
-# Deployment Steps </b>
+# Changing Wallpaper</b>
 
 First, on your Domain Controller, create a folder and drag the wallpaper you'd like to use into it.</p>
 We're going to share this folder over the network.</p>
@@ -49,7 +49,30 @@ We're now going to create a new GPO under "**_EMPLOYEES**", I named mine "Wallpa
 ![image](https://github.com/user-attachments/assets/9ee5b5f0-ecde-4d7b-9cc0-f80ae01a86b7)
 
 Right click the GPO you just created and click edit.</p>
-Navigate to this path
+Navigate to this path, and choose "**Desktop Wallpaper**"
+
+![image](https://github.com/user-attachments/assets/80cf8cb7-3da7-4bd7-a30f-1e19b0024c04)
+
+Click Enabled, select how you'd like the wallpaper to be displayed, then paste the paste from the network share followed by the name of your wallpaper.<ext>.</p>
+My wallpaper is a jpg file so my file path is: *\\dc-1\wallpaper\wallpaper.jpg*
+
+![image](https://github.com/user-attachments/assets/04cfb3e2-bae5-406f-bcb3-ffedbc06790e)
+
+Now log into your user on client-1.</p>
+I chose a different user from the 1000 that we created in the previous guide.
+
+![image](https://github.com/user-attachments/assets/9d8f956b-2b77-4ccc-a7fc-2de46226e540)
+
+After logging into our user, our wallpaper should ow be changed.
+
+![image](https://github.com/user-attachments/assets/9a2b14fb-04ad-4388-b6b9-2e89c0fc2b07)
+
+
+
+
+
+
+
 
 
 
