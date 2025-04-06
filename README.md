@@ -20,11 +20,11 @@ This guide outlines two simple use cases of Group Policy within an Active Direct
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Create shared folder
+- Create Shared folder
 - Create Group Policy Objects (GPOs)
-- Chanage wallpaper
+- Change Wallpaper
 - Deploy Software
-- Observe changes on client-1
+- Observe changes on Client-1
 
 # Changing Wallpaper</b>
 
