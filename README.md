@@ -30,7 +30,7 @@ This guide outlines two simple use cases of Group Policy within an Active Direct
 
 First, on your Domain Controller, create a folder and drag the wallpaper you'd like to use into it.</p>
 We're going to share this folder over the network.</p>
-Make note of the path, we're going to need it.
+Make note of the network path, we're going to need it.
 
 ![image](https://github.com/user-attachments/assets/f61ad5bc-753d-4965-bd6f-2f4389443698)
 
@@ -44,7 +44,7 @@ Open run, and type "**gpmc.msc**"
 
 ![image](https://github.com/user-attachments/assets/d3dc02d6-ed1c-4477-b7cf-30b8062e7e88)
 
-We're now going to create a new GPO under "**_EMPLOYEES**", I named mine "Wallpaper".
+We're now going to create a new GPO under "**_EMPLOYEES**", I named mine "Wallpaper"
 
 ![image](https://github.com/user-attachments/assets/9ee5b5f0-ecde-4d7b-9cc0-f80ae01a86b7)
 
@@ -63,7 +63,7 @@ I chose a different user from the 1000 that we created in the previous guide.
 
 ![image](https://github.com/user-attachments/assets/9d8f956b-2b77-4ccc-a7fc-2de46226e540)
 
-After logging into client-1, our wallpaper should now be changed.
+After logging into client-1, our wallpaper should now be changed!
 
 ![image](https://github.com/user-attachments/assets/9a2b14fb-04ad-4388-b6b9-2e89c0fc2b07)
 
@@ -80,7 +80,7 @@ Share the folder over the network. In permission for the share, add "**Authentic
 
 ![image](https://github.com/user-attachments/assets/15bc14e8-13cd-4004-80c8-b164885bdb31)
 
-Make note of the network share path.
+Make note of the network path.
 
 ![image](https://github.com/user-attachments/assets/a5e40475-4853-4d8b-8de7-2b930611aba9)
 
@@ -93,7 +93,7 @@ In run, type "**gpmc.msc**"
 ![image](https://github.com/user-attachments/assets/0c291fd4-e267-4212-a306-89d7fc42017c)
 
 Inside Group Policy Managment, right click your domain name and add a new GPO.</p>
-I named mine, Chrome Deployment.
+I named mine "Chrome Deployment"
 
 ![image](https://github.com/user-attachments/assets/09ad9fac-5aa6-4e7e-9672-61dd4ec12fe7)
 
@@ -113,7 +113,7 @@ management"
 
 ![image](https://github.com/user-attachments/assets/fbd67dfb-14d8-443c-97d4-3a8e0491bb43)
 
-We're now going to log into client-1.
+We're now going to log into lient-1.
 
 ![image](https://github.com/user-attachments/assets/da050f30-550f-42ba-82d2-6ec53b239d44)
 
@@ -126,10 +126,11 @@ This will force an update to the policy, and prompt you to restart the computer.
 
 ![image](https://github.com/user-attachments/assets/7c314570-bc1e-45a6-8823-f83bfe15bb11)
 
-After the computer is restarted, log back into client-1 and observe how chrome is installed!
+After the computer is restarted, log back into client-1 and observe how Google Chrome is installed!
 
 ![image](https://github.com/user-attachments/assets/f00a7b84-4655-49e8-94f4-4ccb81f4c9db)
 
+I hope this guide was able to help you understand some simple use cases of Group Policy! There are so many settings that can be changed/ modified in Group Policy, I just chose to show two of the simplest. It's important to understand the fundamentals of Group Policy inside of an Active Directory when working a Help Desk / Tech Support Position. If you are finished experimenting within your VMs, I reccommend deleting them to make sure you don't incur any unexpected charges.
 
 
 
