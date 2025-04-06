@@ -30,7 +30,7 @@ This guide outlines two simple use cases of Group Policy within an Active Direct
 
 First, on your Domain Controller, create a folder and drag the wallpaper you'd like to use into it.</p>
 We're going to share this folder over the network.</p>
-Make not of the path, we're going to need it.
+Make note of the path, we're going to need it.
 
 ![image](https://github.com/user-attachments/assets/f61ad5bc-753d-4965-bd6f-2f4389443698)
 
@@ -53,8 +53,8 @@ Navigate to this path, and choose "**Desktop Wallpaper**"
 
 ![image](https://github.com/user-attachments/assets/80cf8cb7-3da7-4bd7-a30f-1e19b0024c04)
 
-Click Enabled, select how you'd like the wallpaper to be displayed, then paste the paste from the network share followed by the name of your wallpaper.<ext>.</p>
-My wallpaper is a jpg file so my file path is: *\\dc-1\wallpaper\wallpaper.jpg*
+Click Enabled, select how you'd like the wallpaper to be displayed, then paste the path from the network share followed by the name of your wallpaper.<ext>.</p>
+My wallpaper is a jpg file, so my file path is: **\\dc-1\wallpaper\wallpaper.jpg**
 
 ![image](https://github.com/user-attachments/assets/04cfb3e2-bae5-406f-bcb3-ffedbc06790e)
 
@@ -63,7 +63,7 @@ I chose a different user from the 1000 that we created in the previous guide.
 
 ![image](https://github.com/user-attachments/assets/9d8f956b-2b77-4ccc-a7fc-2de46226e540)
 
-After logging into our user, our wallpaper should ow be changed.
+After logging into our user, our wallpaper should now be changed.
 
 ![image](https://github.com/user-attachments/assets/9a2b14fb-04ad-4388-b6b9-2e89c0fc2b07)
 
