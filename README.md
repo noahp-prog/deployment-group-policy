@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Using GPO's to deploy software and change the wallpaper. (ADDS)</h1>
+<h1>Using GPO's to deploy software and change user wallpaper. (ADDS)</h1>
 This guide outlines two simple uses of Group Policy within an Active Directory.<br />
 
 <h2>Environments and Technologies Used</h2>
